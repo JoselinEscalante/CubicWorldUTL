@@ -1,0 +1,101 @@
+.completado{
+	text-decoration:line-through;
+}
+
+body{
+	font-family: calibri light;
+}
+
+#Linea{
+	height: 5px;
+	background: #795548;
+	width: 100%;
+}
+
+#Header{
+	width: 1110px;
+	background: #bcaaa4;
+	height: 150px;
+	margin: 0px 45px 0px 45px;
+}
+
+#Header #Texto1{
+	height: auto;
+	width: 850px;
+	border: 0px solid;
+	margin: auto;
+}
+
+#Header #Texto1 #Encabezado{
+	width: 200px; border: 0px solid;
+	float: left;
+}
+
+#Header #Texto1 #Encabezado h2{
+	color:#5d4037;
+}
+
+#Header #Texto1 #Encabezado p{
+	color:  #fdd835;
+	margin-top: -20px;
+}
+
+#Bienvenida{
+	width: 100%;
+	height: auto; overflow: hidden;
+	background:  #80cbc4;
+}
+#Bienvenida #Texto2{
+	width: 800px;
+	margin: auto;
+}
+#Bienvenida #Texto2 #Lado1{
+	width: 290px;
+	border: 0px solid;
+	float: left;
+}
+#Bienvenida #Texto2 #Lado1 h2{
+	color: white;
+	font-weight: lighter;
+	text-align: center;
+}
+.Presentacion{
+	color: #04b4ae;
+	text-align: left;
+}
+#Bienvenida #Texto2 #Lado2{
+	width: 490px;
+	height: auto; float: right;
+}
+.img{
+	width: 470px;
+	height: 180px;
+	border: 3px solid #088a85;
+	margin: 20px 0px;
+	float: right;
+}
+#Contenido{
+	background: #f2f2f2;
+	width: 100%;
+	height: auto; overflow: hidden;
+}
+#Contenido #Texto3{
+	width: 800px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+}
+#Contenido #Texto3 #Lateral1{
+	width: 400px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	float: left;
+}
+#Contenido #Texto3 #Lateral1 h3{
+	color: #0b615e;
+}
+#Contenido #Texto3 #Lateral1 .Descripcion{
+	text-align: left; color: #000000; 
+}
+
+.carousel-inner{
+	padding: 50px;
+}
